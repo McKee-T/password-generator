@@ -1,7 +1,3 @@
-// Assignment code here
-
-
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -11,9 +7,6 @@ function generatePassword() {
  var numberCharacters = confirm("Would you like numbers?\nOK for Yes, Cancel for No.");
  var specialCharacters = confirm("Would you like special characters?\nOK for Yes, Cancel for No.");
 
-//  if(lowerCase) {
-//   let lowerCasePrompt = 
-//  } 
   while (true){
 
     let lengthPrompt = prompt ("How long would you like your password to be?");
@@ -55,10 +48,6 @@ function generatePassword() {
   }
  
 }
-// prompt to get the number of characters in password
-// need 4 ifs with 4 confirmExpressionconditionals
-// processing...
-// return password
 
 // Write password to the #password input
 function writePassword() {
